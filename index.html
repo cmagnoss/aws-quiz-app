@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz AWS AI Practitioner (AIF-C01)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz AWS Certified AI Practitioner (AIF-C01)</h1>
+
+        <div id="setup-section">
+            <label for="num-questions">Quantas perguntas você quer responder?</label>
+            <input type="number" id="num-questions" min="5" max="25" value="10">
+            <button id="start-quiz-btn">Iniciar Quiz</button>
+            <p class="info">Nota: O banco de questões atual possui 22 perguntas. Escolha um número entre 5 e 22.</p>
+        </div>
+
+        <div id="quiz-section" style="display: none;">
+            <div id="question-container">
+                <p id="question-counter"></p>
+                <p id="question-text"></p>
+                <div id="options-container"></div>
+            </div>
+            <div id="feedback-container" style="display: none;">
+                <p id="feedback-text"></p>
+                <p id="explanation-text"></p>
+                <button id="next-question-btn">Próxima Pergunta</button>
+            </div>
+        </div>
+
+        <div id="results-section" style="display: none;">
+            <h2>Resultados Finais</h2>
+            <p id="overall-score"></p>
+            <h3>Desempenho por Domínio:</h3>
+            <ul id="domain-scores"></ul>
+            <button id="restart-quiz-btn">Reiniciar Quiz</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

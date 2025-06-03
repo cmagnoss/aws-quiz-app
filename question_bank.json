@@ -1,0 +1,998 @@
+[
+  {
+    "domain": 1,
+    "question": "Qual termo descreve um subcampo da Inteligência Artificial focado em permitir que computadores aprendam a partir de dados sem serem explicitamente programados?",
+    "options": {
+      "A": "Aprendizado Profundo (Deep Learning)",
+      "B": "Processamento de Linguagem Natural (PLN)",
+      "C": "Aprendizado de Máquina (Machine Learning)",
+      "D": "Visão Computacional"
+    },
+    "answer": "C",
+    "explanation": "O Aprendizado de Máquina (Machine Learning) é o subcampo da IA que se concentra em algoritmos que permitem aos sistemas aprender padrões a partir de dados."
+  },
+  {
+    "domain": 1,
+    "question": "Qual tipo de aprendizado de máquina utiliza dados rotulados para treinar um modelo a prever resultados ou classificar dados?",
+    "options": {
+      "A": "Aprendizado Não Supervisionado",
+      "B": "Aprendizado por Reforço",
+      "C": "Aprendizado Supervisionado",
+      "D": "Aprendizado Semi-supervisionado"
+    },
+    "answer": "C",
+    "explanation": "O Aprendizado Supervisionado treina modelos usando um conjunto de dados onde as entradas e as saídas desejadas (rótulos) são conhecidas."
+  },
+  {
+    "domain": 1,
+    "question": "Qual serviço da AWS é uma plataforma totalmente gerenciada para construir, treinar e implantar modelos de machine learning em escala?",
+    "options": {
+      "A": "Amazon EC2",
+      "B": "AWS Lambda",
+      "C": "Amazon SageMaker",
+      "D": "Amazon S3"
+    },
+    "answer": "C",
+    "explanation": "O Amazon SageMaker oferece um ambiente integrado para todo o ciclo de vida do ML, desde a preparação de dados até a implantação e monitoramento de modelos."
+  },
+  {
+    "domain": 1,
+    "question": "Em qual etapa do ciclo de vida do desenvolvimento de ML ocorre a transformação de dados brutos em um formato adequado para o treinamento do modelo?",
+    "options": {
+      "A": "Avaliação do Modelo",
+      "B": "Implantação",
+      "C": "Pré-processamento de Dados",
+      "D": "Coleta de Dados"
+    },
+    "answer": "C",
+    "explanation": "O pré-processamento de dados envolve limpeza, normalização e transformação dos dados para melhorar a qualidade e a adequação para o modelo de ML."
+  },
+  {
+    "domain": 1,
+    "question": "Qual técnica de ML é mais apropriada para prever um valor numérico contínuo, como o preço de uma casa?",
+    "options": {
+      "A": "Classificação",
+      "B": "Agrupamento (Clustering)",
+      "C": "Regressão",
+      "D": "Redução de Dimensionalidade"
+    },
+    "answer": "C",
+    "explanation": "A regressão é usada para modelar a relação entre variáveis e prever resultados contínuos."
+  },
+  {
+    "domain": 1,
+    "question": "Qual é a principal diferença entre aprendizado supervisionado e não supervisionado?",
+    "options": {
+      "A": "O aprendizado supervisionado usa GPUs, enquanto o não supervisionado usa CPUs",
+      "B": "O aprendizado supervisionado usa dados rotulados, enquanto o não supervisionado identifica padrões em dados não rotulados",
+      "C": "O aprendizado supervisionado é mais rápido, enquanto o não supervisionado é mais preciso",
+      "D": "O aprendizado supervisionado é usado apenas para classificação, enquanto o não supervisionado é usado apenas para regressão"
+    },
+    "answer": "B",
+    "explanation": "A principal diferença é que o aprendizado supervisionado requer dados rotulados com respostas conhecidas, enquanto o não supervisionado trabalha com dados sem rótulos, buscando descobrir estruturas e padrões ocultos."
+  },
+  {
+    "domain": 1,
+    "question": "Qual tipo de dados seria mais adequado para um modelo de visão computacional?",
+    "options": {
+      "A": "Dados tabulares",
+      "B": "Dados de série temporal",
+      "C": "Dados de imagem",
+      "D": "Dados de texto estruturado"
+    },
+    "answer": "C",
+    "explanation": "Dados de imagem são o tipo mais adequado para modelos de visão computacional, que são projetados para processar e analisar conteúdo visual."
+  },
+  {
+    "domain": 1,
+    "question": "O que é uma rede neural?",
+    "options": {
+      "A": "Um algoritmo que imita a estrutura e função do cérebro humano, com camadas de neurônios artificiais interconectados",
+      "B": "Um sistema de computação distribuída para processamento paralelo",
+      "C": "Um protocolo de comunicação entre diferentes serviços de IA na AWS",
+      "D": "Um tipo de banco de dados otimizado para armazenar grandes volumes de dados não estruturados"
+    },
+    "answer": "A",
+    "explanation": "Uma rede neural é um modelo computacional inspirado no cérebro humano, composto por camadas de neurônios artificiais interconectados que processam informações e aprendem padrões complexos."
+  },
+  {
+    "domain": 1,
+    "question": "Qual é a relação entre IA, ML e aprendizado profundo?",
+    "options": {
+      "A": "São termos intercambiáveis que descrevem a mesma tecnologia",
+      "B": "O ML é um subconjunto da IA, e o aprendizado profundo é um subconjunto do ML",
+      "C": "A IA é um subconjunto do ML, e o aprendizado profundo é um subconjunto da IA",
+      "D": "O aprendizado profundo é um subconjunto da IA, e o ML é um subconjunto do aprendizado profundo"
+    },
+    "answer": "B",
+    "explanation": "A IA é o campo mais amplo, o ML é um subconjunto da IA focado em algoritmos que aprendem com dados, e o aprendizado profundo é um subconjunto especializado do ML baseado em redes neurais profundas."
+  },
+  {
+    "domain": 1,
+    "question": "Qual serviço da AWS é especializado em processamento de linguagem natural para análise de sentimentos e extração de entidades?",
+    "options": {
+      "A": "Amazon Rekognition",
+      "B": "Amazon Comprehend",
+      "C": "Amazon Forecast",
+      "D": "Amazon Personalize"
+    },
+    "answer": "B",
+    "explanation": "O Amazon Comprehend é um serviço de PLN que usa ML para encontrar insights e relacionamentos em textos, incluindo análise de sentimentos, extração de entidades e detecção de idioma."
+  },
+  {
+    "domain": 1,
+    "question": "Qual é a diferença entre inferência em lote e inferência em tempo real?",
+    "options": {
+      "A": "A inferência em lote processa grandes volumes de dados de uma vez, enquanto a inferência em tempo real processa dados individuais sob demanda",
+      "B": "A inferência em lote é usada apenas para modelos de classificação, enquanto a inferência em tempo real é usada para regressão",
+      "C": "A inferência em lote é gratuita na AWS, enquanto a inferência em tempo real é paga",
+      "D": "A inferência em lote usa CPUs, enquanto a inferência em tempo real usa GPUs"
+    },
+    "answer": "A",
+    "explanation": "A inferência em lote processa grandes conjuntos de dados de uma só vez, geralmente de forma assíncrona, enquanto a inferência em tempo real responde a solicitações individuais imediatamente, sendo ideal para aplicações que exigem respostas instantâneas."
+  },
+  {
+    "domain": 1,
+    "question": "Qual componente do Amazon SageMaker é usado para preparar e transformar dados antes do treinamento do modelo?",
+    "options": {
+      "A": "Amazon SageMaker Studio",
+      "B": "Amazon SageMaker Data Wrangler",
+      "C": "Amazon SageMaker Model Monitor",
+      "D": "Amazon SageMaker Autopilot"
+    },
+    "answer": "B",
+    "explanation": "O Amazon SageMaker Data Wrangler é uma ferramenta que simplifica o processo de preparação de dados, permitindo importar, transformar, analisar e exportar dados para treinamento de modelos."
+  },
+  {
+    "domain": 1,
+    "question": "Qual métrica de desempenho é mais adequada para avaliar um modelo de classificação binária desbalanceado?",
+    "options": {
+      "A": "Acurácia",
+      "B": "Erro Quadrático Médio (MSE)",
+      "C": "Pontuação F1",
+      "D": "R-quadrado"
+    },
+    "answer": "C",
+    "explanation": "A pontuação F1 é uma média harmônica entre precisão e recall, sendo particularmente útil para conjuntos de dados desbalanceados onde a acurácia pode ser enganosa."
+  },
+  {
+    "domain": 1,
+    "question": "O que é MLOps?",
+    "options": {
+      "A": "Um novo algoritmo de ML desenvolvido pela AWS",
+      "B": "Um conjunto de práticas para integrar processos de ML com operações de TI e desenvolvimento de software",
+      "C": "Um serviço da AWS para otimização automática de modelos",
+      "D": "Um formato de arquivo para armazenar modelos de ML treinados"
+    },
+    "answer": "B",
+    "explanation": "MLOps (Machine Learning Operations) é um conjunto de práticas que visa padronizar e agilizar o ciclo de vida do ML, integrando desenvolvimento, implantação e manutenção contínua de modelos."
+  },
+  {
+    "domain": 1,
+    "question": "Qual serviço da AWS permite converter texto em fala natural?",
+    "options": {
+      "A": "Amazon Transcribe",
+      "B": "Amazon Comprehend",
+      "C": "Amazon Polly",
+      "D": "Amazon Lex"
+    },
+    "answer": "C",
+    "explanation": "O Amazon Polly é um serviço que converte texto em fala realista, permitindo criar aplicações que falam e desenvolver categorias de produtos totalmente novas com capacidades de fala."
+  },
+  {
+    "domain": 1,
+    "question": "Qual é o propósito da análise exploratória de dados (AED) no ciclo de vida do ML?",
+    "options": {
+      "A": "Implantar modelos em produção",
+      "B": "Entender as características, padrões e anomalias nos dados antes do treinamento",
+      "C": "Monitorar o desempenho do modelo após a implantação",
+      "D": "Otimizar hiperparâmetros do modelo"
+    },
+    "answer": "B",
+    "explanation": "A análise exploratória de dados (AED) é uma etapa crucial que permite aos cientistas de dados entender a estrutura, qualidade e características dos dados, identificar padrões, anomalias e relações antes de iniciar o treinamento do modelo."
+  },
+  {
+    "domain": 1,
+    "question": "Em qual cenário o aprendizado por reforço seria mais apropriado?",
+    "options": {
+      "A": "Classificação de e-mails como spam ou não spam",
+      "B": "Previsão de vendas futuras com base em dados históricos",
+      "C": "Treinamento de um agente para jogar xadrez ou videogames",
+      "D": "Segmentação de clientes com base em comportamentos de compra"
+    },
+    "answer": "C",
+    "explanation": "O aprendizado por reforço é ideal para cenários onde um agente aprende a tomar decisões sequenciais através de tentativa e erro, recebendo recompensas ou penalidades, como em jogos, robótica ou sistemas de controle."
+  },
+  {
+    "domain": 1,
+    "question": "Qual serviço da AWS é usado para criar chatbots conversacionais?",
+    "options": {
+      "A": "Amazon Comprehend",
+      "B": "Amazon Lex",
+      "C": "Amazon Polly",
+      "D": "Amazon Transcribe"
+    },
+    "answer": "B",
+    "explanation": "O Amazon Lex é um serviço para criar interfaces conversacionais em aplicativos usando voz e texto, fornecendo a tecnologia de reconhecimento automático de fala (ASR) e compreensão de linguagem natural (NLU) que também alimenta o Amazon Alexa."
+  },
+  {
+    "domain": 1,
+    "question": "O que é engenharia de atributos (feature engineering) no contexto de ML?",
+    "options": {
+      "A": "O processo de selecionar o melhor algoritmo para um problema específico",
+      "B": "O processo de criar, transformar e selecionar variáveis relevantes para melhorar o desempenho do modelo",
+      "C": "O processo de otimizar a arquitetura de uma rede neural",
+      "D": "O processo de avaliar o desempenho de um modelo em dados de teste"
+    },
+    "answer": "B",
+    "explanation": "A engenharia de atributos envolve a criação, transformação e seleção de características (features) dos dados que são mais relevantes para o problema, melhorando a capacidade do modelo de aprender padrões importantes."
+  },
+  {
+    "domain": 1,
+    "question": "Qual é a principal vantagem de usar o Amazon SageMaker Feature Store?",
+    "options": {
+      "A": "Ele fornece modelos pré-treinados prontos para uso",
+      "B": "Ele automatiza completamente o treinamento de modelos sem intervenção humana",
+      "C": "Ele permite armazenar, compartilhar e reutilizar atributos (features) entre equipes e projetos",
+      "D": "Ele otimiza automaticamente os hiperparâmetros de qualquer modelo"
+    },
+    "answer": "C",
+    "explanation": "O Amazon SageMaker Feature Store é um repositório centralizado que permite armazenar, compartilhar e gerenciar atributos para treinamento e inferência, facilitando a reutilização entre diferentes equipes e projetos."
+  },
+  {
+    "domain": 2,
+    "question": "O que são 'tokens' no contexto de Grandes Modelos de Linguagem (LLMs)?",
+    "options": {
+      "A": "Unidades de segurança para acesso ao modelo.",
+      "B": "Métricas de desempenho do modelo.",
+      "C": "Pedaços de texto (palavras, subpalavras ou caracteres) que o modelo processa.",
+      "D": "Parâmetros ajustáveis durante o treinamento."
+    },
+    "answer": "C",
+    "explanation": "Tokens são as unidades básicas de texto que os LLMs utilizam para processar e gerar linguagem."
+  },
+  {
+    "domain": 2,
+    "question": "Qual conceito descreve a capacidade de um modelo de IA generativa criar conteúdo falso, mas plausível, que não está presente nos dados de treinamento?",
+    "options": {
+      "A": "Viés (Bias)",
+      "B": "Alucinação",
+      "C": "Sobreajuste (Overfitting)",
+      "D": "Engenharia de Prompt"
+    },
+    "answer": "B",
+    "explanation": "Alucinação refere-se à tendência de modelos generativos produzirem informações factualmente incorretas ou sem sentido, mas que parecem coerentes."
+  },
+  {
+    "domain": 2,
+    "question": "Qual serviço da AWS oferece acesso a uma variedade de modelos de base (foundation models) de diferentes provedores através de uma única API?",
+    "options": {
+      "A": "Amazon SageMaker JumpStart",
+      "B": "Amazon Lex",
+      "C": "Amazon Bedrock",
+      "D": "Amazon Comprehend"
+    },
+    "answer": "C",
+    "explanation": "O Amazon Bedrock simplifica o desenvolvimento de aplicações de IA generativa, fornecendo acesso fácil a modelos de base de ponta."
+  },
+  {
+    "domain": 2,
+    "question": "Qual é uma vantagem chave do uso de IA generativa em aplicações empresariais?",
+    "options": {
+      "A": "Garantia de 100% de precisão factual.",
+      "B": "Interpretabilidade completa das decisões do modelo.",
+      "C": "Adaptabilidade a diferentes tarefas e contextos com ajuste mínimo.",
+      "D": "Resultados completamente determinísticos."
+    },
+    "answer": "C",
+    "explanation": "Modelos de IA generativa, especialmente os modelos de base, são conhecidos por sua adaptabilidade e capacidade de realizar diversas tarefas (zero-shot, few-shot learning)."
+  },
+  {
+    "domain": 2,
+    "question": "Qual etapa do ciclo de vida do modelo de base envolve o ajuste fino de um modelo pré-treinado usando um conjunto de dados específico para uma tarefa particular?",
+    "options": {
+      "A": "Pré-treinamento",
+      "B": "Seleção de Dados",
+      "C": "Ajuste Fino (Fine-tuning)",
+      "D": "Implantação"
+    },
+    "answer": "C",
+    "explanation": "O ajuste fino adapta um modelo de base pré-treinado para melhorar seu desempenho em tarefas específicas, usando um conjunto de dados menor e rotulado."
+  },
+  {
+    "domain": 2,
+    "question": "O que são embeddings no contexto de IA generativa?",
+    "options": {
+      "A": "Técnicas para comprimir modelos de IA para dispositivos móveis",
+      "B": "Representações numéricas de palavras, frases ou imagens em um espaço vetorial multidimensional",
+      "C": "Métodos para incorporar modelos de IA em aplicações web",
+      "D": "Frameworks para integrar diferentes modelos de IA em um único sistema"
+    },
+    "answer": "B",
+    "explanation": "Embeddings são representações vetoriais densas que capturam o significado semântico de palavras, frases, imagens ou outros objetos, permitindo comparações de similaridade e operações matemáticas no espaço vetorial."
+  },
+  {
+    "domain": 2,
+    "question": "Qual é a principal diferença entre modelos de base (foundation models) e modelos tradicionais de ML?",
+    "options": {
+      "A": "Modelos de base são treinados apenas para tarefas específicas, enquanto modelos tradicionais são mais generalistas",
+      "B": "Modelos de base são treinados em conjuntos de dados menores, enquanto modelos tradicionais requerem grandes volumes de dados",
+      "C": "Modelos de base são pré-treinados em grandes volumes de dados e podem ser adaptados para múltiplas tarefas, enquanto modelos tradicionais são geralmente treinados para uma tarefa específica",
+      "D": "Modelos de base são exclusivamente supervisionados, enquanto modelos tradicionais são não supervisionados"
+    },
+    "answer": "C",
+    "explanation": "Modelos de base são pré-treinados em vastos conjuntos de dados não rotulados e podem ser adaptados para diversas tarefas downstream com ajuste fino mínimo, enquanto modelos tradicionais são tipicamente treinados do zero para resolver uma tarefa específica."
+  },
+  {
+    "domain": 2,
+    "question": "O que é fragmentação (tokenization) no contexto de processamento de linguagem natural?",
+    "options": {
+      "A": "O processo de dividir um texto em unidades menores como palavras, subpalavras ou caracteres",
+      "B": "O processo de criptografar dados sensíveis em um texto",
+      "C": "O processo de comprimir um texto para economizar espaço de armazenamento",
+      "D": "O processo de traduzir um texto de um idioma para outro"
+    },
+    "answer": "A",
+    "explanation": "A fragmentação (tokenization) é o processo de dividir texto em unidades menores chamadas tokens, que podem ser palavras, subpalavras ou caracteres, permitindo que os modelos de linguagem processem o texto de forma eficiente."
+  },
+  {
+    "domain": 2,
+    "question": "Qual é uma limitação significativa dos modelos de IA generativa atuais?",
+    "options": {
+      "A": "Eles só podem processar textos em inglês",
+      "B": "Eles não podem gerar conteúdo visual, apenas textual",
+      "C": "Eles podem produzir informações factualmente incorretas (alucinações)",
+      "D": "Eles só funcionam em ambientes de nuvem, nunca localmente"
+    },
+    "answer": "C",
+    "explanation": "Uma limitação importante dos modelos de IA generativa é sua tendência a produzir alucinações - informações que parecem plausíveis e bem formuladas, mas são factualmente incorretas ou inventadas."
+  },
+  {
+    "domain": 2,
+    "question": "O que são modelos multimodais no contexto de IA generativa?",
+    "options": {
+      "A": "Modelos que podem ser executados em múltiplas plataformas de hardware",
+      "B": "Modelos que podem processar e gerar diferentes tipos de dados, como texto, imagens e áudio",
+      "C": "Modelos que usam múltiplos algoritmos para uma única tarefa",
+      "D": "Modelos que podem ser treinados usando diferentes frameworks de ML"
+    },
+    "answer": "B",
+    "explanation": "Modelos multimodais podem processar e gerar diferentes tipos de dados (modalidades), como texto, imagens, áudio e vídeo, permitindo interações mais ricas e compreensão entre diferentes formatos de informação."
+  },
+  {
+    "domain": 2,
+    "question": "O que são modelos de difusão no contexto de IA generativa?",
+    "options": {
+      "A": "Modelos que distribuem o processamento entre múltiplos servidores",
+      "B": "Modelos que geram imagens adicionando ruído gradualmente e depois removendo-o",
+      "C": "Modelos que propagam informações através de redes sociais",
+      "D": "Modelos que transferem conhecimento entre diferentes domínios"
+    },
+    "answer": "B",
+    "explanation": "Modelos de difusão são uma classe de modelos generativos que aprendem a gerar dados (especialmente imagens) adicionando ruído gradualmente a uma amostra e depois aprendendo a reverter esse processo, removendo o ruído passo a passo."
+  },
+  {
+    "domain": 2,
+    "question": "Qual é o propósito do PartyRock, um Amazon Bedrock Playground?",
+    "options": {
+      "A": "Fornecer um ambiente de teste de segurança para modelos de IA",
+      "B": "Permitir que desenvolvedores criem aplicações de IA generativa sem código",
+      "C": "Facilitar a colaboração entre equipes de ciência de dados",
+      "D": "Otimizar automaticamente o desempenho de modelos de IA"
+    },
+    "answer": "B",
+    "explanation": "PartyRock é uma plataforma no-code da AWS que permite aos usuários criar e compartilhar aplicações de IA generativa rapidamente, experimentando com modelos do Amazon Bedrock sem necessidade de programação."
+  },
+  {
+    "domain": 2,
+    "question": "Qual métrica empresarial seria mais relevante para avaliar o sucesso de um chatbot de atendimento ao cliente baseado em IA generativa?",
+    "options": {
+      "A": "Número de parâmetros do modelo",
+      "B": "Taxa de conversão e satisfação do cliente",
+      "C": "Velocidade de treinamento do modelo",
+      "D": "Quantidade de dados de treinamento utilizados"
+    },
+    "answer": "B",
+    "explanation": "Métricas empresariais como taxa de conversão e satisfação do cliente são mais relevantes para avaliar o impacto real de um chatbot de atendimento, pois medem diretamente o valor gerado para o negócio, em vez de características técnicas do modelo."
+  },
+  {
+    "domain": 2,
+    "question": "Qual fator NÃO deve ser considerado ao escolher um modelo de IA generativa para uma aplicação empresarial?",
+    "options": {
+      "A": "Requisitos de conformidade e privacidade",
+      "B": "Custo de inferência e latência",
+      "C": "Popularidade do modelo nas redes sociais",
+      "D": "Capacidade de lidar com o domínio específico do problema"
+    },
+    "answer": "C",
+    "explanation": "A popularidade de um modelo nas redes sociais não é um critério relevante para decisões empresariais. Fatores como conformidade, custo, desempenho e adequação ao domínio são muito mais importantes para determinar o valor real para o negócio."
+  },
+  {
+    "domain": 2,
+    "question": "Qual é uma vantagem de usar os serviços de IA generativa da AWS em comparação com implementar soluções personalizadas do zero?",
+    "options": {
+      "A": "Garantia de 100% de precisão nas respostas geradas",
+      "B": "Menor barreira de entrada e tempo de comercialização mais rápido",
+      "C": "Capacidade ilimitada de personalização do modelo",
+      "D": "Custo zero de operação"
+    },
+    "answer": "B",
+    "explanation": "Os serviços gerenciados de IA generativa da AWS reduzem significativamente a barreira de entrada e aceleram o tempo de comercialização, permitindo que as empresas implementem soluções sem precisar desenvolver modelos complexos do zero ou gerenciar a infraestrutura subjacente."
+  },
+  {
+    "domain": 2,
+    "question": "Qual é uma consideração importante ao avaliar o custo total de propriedade (TCO) de uma solução de IA generativa na AWS?",
+    "options": {
+      "A": "Apenas o custo de armazenamento dos dados",
+      "B": "Apenas o custo de treinamento inicial do modelo",
+      "C": "Preços baseados em tokens, throughput de provisão e custos de infraestrutura",
+      "D": "Apenas o custo de licenciamento do software"
+    },
+    "answer": "C",
+    "explanation": "O TCO de soluções de IA generativa deve considerar múltiplos fatores, incluindo preços baseados em tokens (para inferência), throughput de provisão (capacidade dedicada), custos de infraestrutura, armazenamento, transferência de dados e possíveis custos de personalização."
+  },
+  {
+    "domain": 2,
+    "question": "Qual é o papel do Amazon Q no ecossistema de IA generativa da AWS?",
+    "options": {
+      "A": "É um serviço exclusivo para treinamento de modelos de IA",
+      "B": "É um assistente de IA generativa para aumentar a produtividade de desenvolvedores e usuários empresariais",
+      "C": "É uma ferramenta apenas para monitoramento de custos de serviços de IA",
+      "D": "É um serviço para tradução automática entre idiomas"
+    },
+    "answer": "B",
+    "explanation": "O Amazon Q é um assistente conversacional baseado em IA generativa projetado para aumentar a produtividade, ajudando desenvolvedores a escrever código, responder perguntas e auxiliar usuários empresariais em várias tarefas com base no contexto organizacional."
+  },
+  {
+    "domain": 2,
+    "question": "Qual é uma vantagem da infraestrutura da AWS para aplicações de IA generativa em termos de segurança?",
+    "options": {
+      "A": "Elimina completamente a necessidade de considerar a segurança da aplicação",
+      "B": "Fornece ferramentas e serviços para implementar controles de segurança robustos e conformidade",
+      "C": "Garante que nenhum dado sensível jamais será processado pelo modelo",
+      "D": "Torna impossível qualquer tipo de ataque ou exploração de vulnerabilidades"
+    },
+    "answer": "B",
+    "explanation": "A infraestrutura da AWS oferece ferramentas e serviços abrangentes para implementar controles de segurança robustos, incluindo criptografia, controle de acesso, monitoramento e recursos de conformidade, facilitando a proteção de aplicações de IA generativa."
+  },
+  {
+    "domain": 3,
+    "question": "O que é Geração Aumentada de Recuperação (RAG - Retrieval-Augmented Generation)?",
+    "options": {
+      "A": "Uma técnica para treinar modelos de base do zero.",
+      "B": "Um método para avaliar a qualidade das respostas do modelo.",
+      "C": "Uma abordagem que combina um modelo generativo com a recuperação de informações de uma base de conhecimento externa.",
+      "D": "Uma forma de ajustar os hiperparâmetros do modelo durante a inferência."
+    },
+    "answer": "C",
+    "explanation": "RAG permite que modelos generativos acessem e utilizem informações de fontes externas (como bancos de dados ou documentos) para gerar respostas mais precisas e contextuais."
+  },
+  {
+    "domain": 3,
+    "question": "Qual parâmetro de inferência controla a aleatoriedade das respostas de um modelo generativo, onde valores mais altos geralmente levam a resultados mais criativos e menos previsíveis?",
+    "options": {
+      "A": "Tamanho da Entrada (Input Size)",
+      "B": "Temperatura (Temperature)",
+      "C": "Tamanho da Saída (Output Size)",
+      "D": "Top-k"
+    },
+    "answer": "B",
+    "explanation": "A temperatura ajusta a distribuição de probabilidade das próximas palavras/tokens. Temperaturas mais altas aumentam a aleatoriedade, enquanto temperaturas mais baixas tornam a saída mais focada e determinística."
+  },
+  {
+    "domain": 3,
+    "question": "Qual técnica de engenharia de prompts envolve fornecer ao modelo alguns exemplos de entrada e saída desejada antes de fazer a pergunta final?",
+    "options": {
+      "A": "Zero-shot prompting",
+      "B": "Few-shot prompting",
+      "C": "Chain-of-thought prompting",
+      "D": "Prompt template"
+    },
+    "answer": "B",
+    "explanation": "Few-shot prompting 'ensina' o modelo sobre a tarefa desejada, fornecendo alguns exemplos (shots) no próprio prompt."
+  },
+  {
+    "domain": 3,
+    "question": "Qual serviço da AWS NÃO é tipicamente usado como um banco de dados de vetores para armazenar embeddings em aplicações RAG?",
+    "options": {
+      "A": "Amazon OpenSearch Service",
+      "B": "Amazon RDS para PostgreSQL (com extensão pgvector)",
+      "C": "Amazon S3",
+      "D": "Amazon Neptune (com índices vetoriais)"
+    },
+    "answer": "C",
+    "explanation": "Embora o S3 seja usado para armazenamento de objetos, ele não funciona nativamente como um banco de dados de vetores otimizado para buscas de similaridade, ao contrário das outras opções listadas."
+  },
+  {
+    "domain": 3,
+    "question": "Qual é o principal objetivo do ajuste fino (fine-tuning) de um modelo de base?",
+    "options": {
+      "A": "Reduzir o tamanho do modelo.",
+      "B": "Aumentar a velocidade de inferência.",
+      "C": "Adaptar o modelo para um domínio ou tarefa específica, melhorando seu desempenho.",
+      "D": "Treinar o modelo em um conjunto de dados completamente novo e não relacionado."
+    },
+    "answer": "C",
+    "explanation": "O ajuste fino especializa um modelo pré-treinado para tarefas ou domínios específicos usando dados relevantes, melhorando a qualidade das respostas para esses casos de uso."
+  },
+  {
+    "domain": 3,
+    "question": "Qual métrica é comumente usada para avaliar a qualidade de resumos gerados por modelos de IA, comparando-os com resumos de referência humanos?",
+    "options": {
+      "A": "Acurácia (Accuracy)",
+      "B": "Pontuação F1 (F1 Score)",
+      "C": "ROUGE (Recall-Oriented Understudy for Gisting Evaluation)",
+      "D": "AUC (Area Under the Curve)"
+    },
+    "answer": "C",
+    "explanation": "ROUGE é um conjunto de métricas usadas para avaliar tarefas de sumarização automática e tradução automática, comparando o resumo gerado com um ou mais resumos de referência."
+  },
+  {
+    "domain": 3,
+    "question": "O que é 'chain-of-thought prompting' na engenharia de prompts?",
+    "options": {
+      "A": "Uma técnica que solicita ao modelo que explique seu raciocínio passo a passo antes de chegar à resposta final",
+      "B": "Um método para encadear múltiplos modelos de IA em sequência",
+      "C": "Uma abordagem que usa múltiplos prompts para verificar a consistência das respostas",
+      "D": "Uma estratégia para reduzir o tamanho dos prompts dividindo-os em partes menores"
+    },
+    "answer": "A",
+    "explanation": "Chain-of-thought prompting é uma técnica que incentiva o modelo a mostrar o raciocínio passo a passo, melhorando o desempenho em tarefas complexas que exigem múltiplas etapas de pensamento lógico."
+  },
+  {
+    "domain": 3,
+    "question": "Ao selecionar um modelo pré-treinado para uma aplicação multilíngue, qual fator seria mais importante considerar?",
+    "options": {
+      "A": "O tamanho do modelo em termos de número de parâmetros",
+      "B": "A cobertura de idiomas no treinamento do modelo",
+      "C": "A velocidade de inferência do modelo",
+      "D": "O custo de armazenamento do modelo"
+    },
+    "answer": "B",
+    "explanation": "Para aplicações multilíngues, a cobertura de idiomas no treinamento do modelo é crucial, pois determina diretamente a capacidade do modelo de compreender e gerar conteúdo de qualidade nos idiomas necessários."
+  },
+  {
+    "domain": 3,
+    "question": "Qual é a principal vantagem da abordagem RAG (Retrieval-Augmented Generation) em comparação com o ajuste fino (fine-tuning) de um modelo de base?",
+    "options": {
+      "A": "RAG é sempre mais rápido em termos de latência de resposta",
+      "B": "RAG permite que o modelo acesse informações atualizadas ou específicas sem retreinamento",
+      "C": "RAG requer menos recursos computacionais para implementação",
+      "D": "RAG sempre produz respostas mais criativas e diversas"
+    },
+    "answer": "B",
+    "explanation": "Uma vantagem fundamental do RAG é permitir que o modelo acesse informações atualizadas ou específicas de fontes externas sem necessidade de retreinamento, tornando-o ideal para casos onde os dados mudam frequentemente ou são proprietários."
+  },
+  {
+    "domain": 3,
+    "question": "O que são 'prompts negativos' no contexto de geração de imagens por IA?",
+    "options": {
+      "A": "Prompts que contêm linguagem ofensiva ou inadequada",
+      "B": "Instruções sobre o que o modelo deve evitar ou não incluir na imagem gerada",
+      "C": "Prompts que resultam em falha na geração de imagens",
+      "D": "Feedback negativo fornecido após a geração da imagem"
+    },
+    "answer": "B",
+    "explanation": "Prompts negativos são instruções específicas sobre elementos, estilos ou características que o modelo deve evitar ao gerar uma imagem, ajudando a refinar o resultado excluindo aspectos indesejados."
+  },
+  {
+    "domain": 3,
+    "question": "Qual é o propósito dos agentes no Amazon Bedrock?",
+    "options": {
+      "A": "Monitorar o desempenho dos modelos de IA em produção",
+      "B": "Automatizar o ajuste fino de modelos de base",
+      "C": "Orquestrar tarefas de várias etapas, permitindo que os modelos de IA interajam com dados e serviços externos",
+      "D": "Reduzir os custos de inferência dos modelos de IA"
+    },
+    "answer": "C",
+    "explanation": "Os agentes no Amazon Bedrock permitem orquestrar tarefas complexas de várias etapas, permitindo que os modelos de IA interajam com dados, APIs e serviços externos para completar sequências de ações baseadas em objetivos."
+  },
+  {
+    "domain": 3,
+    "question": "Qual é a diferença entre zero-shot learning e few-shot learning?",
+    "options": {
+      "A": "Zero-shot usa zero parâmetros, enquanto few-shot usa poucos parâmetros",
+      "B": "Zero-shot requer zero dados de treinamento, enquanto few-shot requer alguns exemplos",
+      "C": "Zero-shot pede ao modelo para realizar uma tarefa sem exemplos, enquanto few-shot fornece alguns exemplos no prompt",
+      "D": "Zero-shot é usado apenas para classificação, enquanto few-shot é usado para geração de texto"
+    },
+    "answer": "C",
+    "explanation": "Em zero-shot learning, o modelo é solicitado a realizar uma tarefa sem exemplos específicos, confiando em seu conhecimento pré-treinado. Em few-shot learning, alguns exemplos são fornecidos no prompt para guiar o modelo na tarefa desejada."
+  },
+  {
+    "domain": 3,
+    "question": "Qual fator NÃO é tipicamente considerado ao avaliar o custo-benefício de diferentes abordagens para personalização de modelos de base?",
+    "options": {
+      "A": "Custo computacional do treinamento",
+      "B": "Tempo necessário para implementação",
+      "C": "Qualidade esperada dos resultados",
+      "D": "Popularidade da abordagem entre concorrentes"
+    },
+    "answer": "D",
+    "explanation": "A popularidade de uma abordagem entre concorrentes não é um fator relevante para avaliar seu custo-benefício. Fatores como custo computacional, tempo de implementação e qualidade dos resultados são muito mais importantes para determinar o valor real da personalização."
+  },
+  {
+    "domain": 3,
+    "question": "O que é 'espaço latente' no contexto de modelos de IA generativa?",
+    "options": {
+      "A": "O tempo de latência para gerar uma resposta",
+      "B": "O espaço físico necessário para armazenar o modelo",
+      "C": "A representação interna multidimensional onde o modelo codifica conceitos e relações",
+      "D": "A quantidade de memória RAM necessária durante a inferência"
+    },
+    "answer": "C",
+    "explanation": "O espaço latente é a representação interna multidimensional onde o modelo codifica conceitos, características e relações aprendidas durante o treinamento, permitindo manipulações e interpolações significativas."
+  },
+  {
+    "domain": 3,
+    "question": "Qual é um risco potencial da técnica de 'prompt injection' (injeção de prompt)?",
+    "options": {
+      "A": "Pode causar danos físicos ao hardware",
+      "B": "Pode fazer com que o modelo ignore suas diretrizes de segurança e gere conteúdo inadequado",
+      "C": "Pode aumentar significativamente os custos de inferência",
+      "D": "Pode corromper permanentemente os pesos do modelo"
+    },
+    "answer": "B",
+    "explanation": "A injeção de prompt é uma técnica onde um usuário mal-intencionado tenta manipular o comportamento do modelo inserindo instruções maliciosas, potencialmente fazendo com que o modelo ignore suas diretrizes de segurança e gere conteúdo inadequado ou perigoso."
+  },
+  {
+    "domain": 3,
+    "question": "O que é 'pré-treinamento contínuo' (continued pre-training) de um modelo de base?",
+    "options": {
+      "A": "Treinar o modelo continuamente em produção com feedback do usuário",
+      "B": "Continuar o pré-treinamento do modelo com dados adicionais específicos do domínio antes do ajuste fino",
+      "C": "Monitorar continuamente o desempenho do modelo após a implantação",
+      "D": "Treinar múltiplos modelos em paralelo e selecionar o melhor"
+    },
+    "answer": "B",
+    "explanation": "O pré-treinamento contínuo envolve estender o pré-treinamento de um modelo de base existente com dados adicionais específicos do domínio antes de realizar o ajuste fino, ajudando o modelo a se adaptar melhor ao domínio alvo."
+  },
+  {
+    "domain": 3,
+    "question": "Qual métrica de avaliação é mais adequada para avaliar a qualidade de traduções automáticas geradas por modelos de IA?",
+    "options": {
+      "A": "ROUGE",
+      "B": "BLEU (Bilingual Evaluation Understudy)",
+      "C": "Acurácia",
+      "D": "Precisão"
+    },
+    "answer": "B",
+    "explanation": "BLEU é uma métrica projetada especificamente para avaliar a qualidade de traduções automáticas, comparando a similaridade entre a tradução gerada pelo modelo e uma ou mais traduções de referência feitas por humanos."
+  },
+  {
+    "domain": 3,
+    "question": "O que é RLHF (Reinforcement Learning from Human Feedback) no contexto de modelos de base?",
+    "options": {
+      "A": "Um método para treinar modelos usando apenas feedback humano, sem dados rotulados",
+      "B": "Uma técnica que usa feedback humano para ajustar modelos de linguagem, alinhando-os melhor com preferências e valores humanos",
+      "C": "Um algoritmo que permite que modelos aprendam jogos sem instruções explícitas",
+      "D": "Um processo para avaliar automaticamente a qualidade das respostas do modelo"
+    },
+    "answer": "B",
+    "explanation": "RLHF é uma técnica que usa aprendizado por reforço com feedback humano para ajustar modelos de linguagem, ajudando-os a gerar respostas mais úteis, inofensivas e alinhadas com valores e preferências humanas."
+  },
+  {
+    "domain": 3,
+    "question": "Qual é a principal função de uma base de conhecimento (Knowledge Base) no Amazon Bedrock?",
+    "options": {
+      "A": "Armazenar os pesos e parâmetros dos modelos de IA",
+      "B": "Documentar as melhores práticas para uso de IA generativa",
+      "C": "Fornecer um repositório de dados específicos da organização para enriquecer as respostas dos modelos via RAG",
+      "D": "Monitorar o desempenho dos modelos em produção"
+    },
+    "answer": "C",
+    "explanation": "Uma base de conhecimento no Amazon Bedrock é um repositório que armazena e indexa dados específicos da organização (documentos, FAQs, etc.), permitindo que os modelos de IA acessem essas informações via RAG para gerar respostas mais precisas e contextualizadas."
+  },
+  {
+    "domain": 4,
+    "question": "Qual característica da IA responsável se refere à garantia de que os sistemas de IA tratem todos os indivíduos e grupos de forma justa e equitativa, sem discriminação indevida?",
+    "options": {
+      "A": "Robustez",
+      "B": "Transparência",
+      "C": "Imparcialidade (Fairness)",
+      "D": "Privacidade"
+    },
+    "answer": "C",
+    "explanation": "A imparcialidade (Fairness) é um pilar central da IA responsável, focando na mitigação de vieses e na prevenção de resultados discriminatórios."
+  },
+  {
+    "domain": 4,
+    "question": "Qual ferramenta do Amazon Bedrock pode ser usada para definir tópicos a serem bloqueados e filtrar conteúdo prejudicial nas interações com modelos de base?",
+    "options": {
+      "A": "Agentes (Agents)",
+      "B": "Bases de Conhecimento (Knowledge Bases)",
+      "C": "Barreiras de Proteção (Guardrails)",
+      "D": "Modelos Personalizados (Custom Models)"
+    },
+    "answer": "C",
+    "explanation": "As Barreiras de Proteção (Guardrails) para Amazon Bedrock permitem implementar salvaguardas para garantir que as interações com a IA generativa permaneçam dentro das políticas definidas."
+  },
+  {
+    "domain": 4,
+    "question": "Qual NÃO é considerada uma prática recomendada para o desenvolvimento responsável de IA?",
+    "options": {
+      "A": "Avaliar e mitigar vieses nos dados e modelos.",
+      "B": "Garantir a transparência sobre como o sistema de IA funciona e toma decisões.",
+      "C": "Priorizar a velocidade de desenvolvimento acima das considerações éticas.",
+      "D": "Implementar medidas de segurança robustas para proteger os dados e o modelo."
+    },
+    "answer": "C",
+    "explanation": "O desenvolvimento responsável de IA exige que as considerações éticas, de segurança e imparcialidade sejam integradas ao longo do ciclo de vida, não sacrificadas pela velocidade."
+  },
+  {
+    "domain": 4,
+    "question": "O que é 'viés' (bias) no contexto de sistemas de IA?",
+    "options": {
+      "A": "Uma preferência técnica por determinados algoritmos de ML",
+      "B": "Distorções sistemáticas nos resultados do modelo que podem levar a tratamento injusto de certos grupos",
+      "C": "A tendência de modelos de IA preferirem respostas curtas a longas",
+      "D": "A inclinação dos desenvolvedores a usar determinadas linguagens de programação"
+    },
+    "answer": "B",
+    "explanation": "Viés em IA refere-se a distorções sistemáticas nos resultados do modelo que podem refletir ou amplificar preconceitos existentes nos dados de treinamento, levando a tratamento injusto ou discriminatório de certos grupos ou indivíduos."
+  },
+  {
+    "domain": 4,
+    "question": "Qual aspecto da IA responsável se refere à capacidade de explicar como um modelo de IA chegou a uma determinada conclusão ou decisão?",
+    "options": {
+      "A": "Robustez",
+      "B": "Transparência",
+      "C": "Privacidade",
+      "D": "Segurança"
+    },
+    "answer": "B",
+    "explanation": "A transparência em IA responsável refere-se à capacidade de explicar e comunicar claramente como um modelo funciona, como toma decisões e quais fatores influenciam seus resultados, facilitando a confiança e a responsabilização."
+  },
+  {
+    "domain": 4,
+    "question": "Qual consideração ética é particularmente importante ao escolher um modelo de IA para aplicações que afetam diretamente pessoas?",
+    "options": {
+      "A": "O tamanho do modelo em termos de parâmetros",
+      "B": "A popularidade do modelo entre desenvolvedores",
+      "C": "O potencial impacto do modelo em diferentes grupos demográficos",
+      "D": "A velocidade de inferência do modelo"
+    },
+    "answer": "C",
+    "explanation": "Ao escolher modelos para aplicações que afetam pessoas, é crucial considerar como o modelo pode impactar diferentes grupos demográficos, avaliando potenciais vieses, discriminação ou tratamento injusto que possam surgir."
+  },
+  {
+    "domain": 4,
+    "question": "O que significa 'veracidade' no contexto de IA responsável?",
+    "options": {
+      "A": "A capacidade do modelo de gerar apenas conteúdo factualmente correto",
+      "B": "A precisão técnica do algoritmo de ML",
+      "C": "A honestidade dos desenvolvedores sobre as capacidades do modelo",
+      "D": "A transparência sobre as fontes de dados usadas no treinamento"
+    },
+    "answer": "A",
+    "explanation": "Veracidade em IA responsável refere-se à capacidade do modelo de gerar conteúdo factualmente correto e confiável, minimizando alucinações ou informações falsas que possam enganar os usuários."
+  },
+  {
+    "domain": 4,
+    "question": "Qual é uma consideração importante relacionada à sustentabilidade no desenvolvimento e implantação de modelos de IA?",
+    "options": {
+      "A": "O consumo de energia e a pegada de carbono associados ao treinamento e execução de grandes modelos",
+      "B": "A capacidade do modelo de gerar conteúdo relacionado a questões ambientais",
+      "C": "O uso de hardware reciclado para hospedar os modelos",
+      "D": "A longevidade do modelo antes de se tornar obsoleto"
+    },
+    "answer": "A",
+    "explanation": "Uma consideração importante de sustentabilidade é o consumo significativo de energia e a pegada de carbono associados ao treinamento e execução de grandes modelos de IA, que podem ter impactos ambientais substanciais."
+  },
+  {
+    "domain": 4,
+    "question": "O que é 'agência moral' no contexto da escolha de modelos de IA?",
+    "options": {
+      "A": "A capacidade do modelo de tomar decisões morais autônomas",
+      "B": "A responsabilidade humana de fazer escolhas éticas sobre quais modelos usar e como usá-los",
+      "C": "Um departamento regulatório que supervisiona o desenvolvimento de IA",
+      "D": "Um conjunto de regras programadas no modelo para garantir comportamento ético"
+    },
+    "answer": "B",
+    "explanation": "Agência moral refere-se à responsabilidade humana de fazer escolhas éticas conscientes sobre quais modelos de IA usar, como usá-los e para quais propósitos, reconhecendo que essas decisões têm implicações morais significativas."
+  },
+  {
+    "domain": 4,
+    "question": "Qual é um exemplo de como as barreiras de proteção (guardrails) podem ser usadas para promover IA responsável?",
+    "options": {
+      "A": "Aumentar a velocidade de inferência do modelo",
+      "B": "Reduzir o custo de treinamento do modelo",
+      "C": "Filtrar conteúdo prejudicial, tóxico ou discriminatório nas respostas do modelo",
+      "D": "Melhorar a precisão técnica do modelo"
+    },
+    "answer": "C",
+    "explanation": "As barreiras de proteção podem ser configuradas para detectar e filtrar conteúdo prejudicial, tóxico ou discriminatório nas respostas do modelo, ajudando a garantir que as interações com a IA permaneçam seguras, respeitosas e alinhadas com valores éticos."
+  },
+  {
+    "domain": 4,
+    "question": "O que significa 'inclusão' no contexto de IA responsável?",
+    "options": {
+      "A": "Incluir o máximo possível de dados no treinamento do modelo",
+      "B": "Garantir que os sistemas de IA sejam acessíveis e benéficos para diversas populações, incluindo grupos tradicionalmente marginalizados",
+      "C": "Incluir múltiplos modelos de IA em uma única aplicação",
+      "D": "Incorporar feedback de usuários no desenvolvimento do modelo"
+    },
+    "answer": "B",
+    "explanation": "Inclusão em IA responsável significa garantir que os sistemas de IA sejam projetados, desenvolvidos e implantados de forma a serem acessíveis, úteis e benéficos para diversas populações, incluindo grupos tradicionalmente marginalizados ou sub-representados."
+  },
+  {
+    "domain": 4,
+    "question": "Qual é uma prática recomendada para garantir a robustez de um sistema de IA?",
+    "options": {
+      "A": "Usar apenas dados de alta qualidade de uma única fonte",
+      "B": "Testar o sistema apenas em cenários ideais",
+      "C": "Avaliar o desempenho do sistema em diversas condições, incluindo casos extremos e entradas inesperadas",
+      "D": "Limitar o sistema a um conjunto muito restrito de tarefas"
+    },
+    "answer": "C",
+    "explanation": "A robustez em sistemas de IA é garantida através de testes abrangentes em diversas condições, incluindo casos extremos, entradas inesperadas e cenários adversariais, para assegurar que o sistema funcione de forma confiável e segura em diferentes situações."
+  },
+  {
+    "domain": 5,
+    "question": "Qual serviço da AWS é fundamental para gerenciar permissões e controlar o acesso a recursos de IA/ML na nuvem AWS?",
+    "options": {
+      "A": "Amazon CloudWatch",
+      "B": "AWS CloudTrail",
+      "C": "AWS Identity and Access Management (IAM)",
+      "D": "AWS Key Management Service (KMS)"
+    },
+    "answer": "C",
+    "explanation": "O IAM é o serviço central para gerenciar identidades de usuários, grupos e roles, e definir políticas de permissão para controlar o acesso aos serviços e recursos da AWS."
+  },
+  {
+    "domain": 5,
+    "question": "Dentro do Modelo de Responsabilidade Compartilhada da AWS, qual é a responsabilidade do cliente ao usar serviços de IA/ML como o Amazon SageMaker?",
+    "options": {
+      "A": "Gerenciar a infraestrutura física dos data centers.",
+      "B": "Garantir a segurança do hardware subjacente.",
+      "C": "Configurar corretamente as permissões do IAM, proteger os dados de entrada/saída e gerenciar a segurança em nível de aplicação.",
+      "D": "Manter o software do hipervisor atualizado."
+    },
+    "answer": "C",
+    "explanation": "No modelo de responsabilidade compartilhada para serviços gerenciados como SageMaker, a AWS cuida da segurança 'da' nuvem (infraestrutura), enquanto o cliente é responsável pela segurança 'na' nuvem (configuração, dados, acesso)."
+  },
+  {
+    "domain": 5,
+    "question": "Qual prática de segurança ajuda a proteger dados sensíveis usados no treinamento ou inferência de modelos de IA, tanto em repouso quanto em trânsito?",
+    "options": {
+      "A": "Monitoramento de logs com CloudWatch.",
+      "B": "Uso de grupos de segurança e ACLs de rede.",
+      "C": "Criptografia de dados.",
+      "D": "Auditoria de APIs com CloudTrail."
+    },
+    "answer": "C",
+    "explanation": "A criptografia é essencial para proteger a confidencialidade e a integridade dos dados, seja usando serviços como AWS KMS para gerenciar chaves ou TLS para comunicação em trânsito."
+  },
+  {
+    "domain": 5,
+    "question": "Qual serviço da AWS pode ser usado para monitorar e registrar chamadas de API para serviços de IA/ML, ajudando na auditoria de segurança?",
+    "options": {
+      "A": "Amazon Inspector",
+      "B": "AWS CloudTrail",
+      "C": "Amazon GuardDuty",
+      "D": "AWS Shield"
+    },
+    "answer": "B",
+    "explanation": "O AWS CloudTrail registra chamadas de API para serviços da AWS, incluindo serviços de IA/ML, fornecendo um histórico de atividades que pode ser usado para análise de segurança, auditoria de conformidade e solução de problemas operacionais."
+  },
+  {
+    "domain": 5,
+    "question": "Qual é uma prática recomendada para proteger modelos de ML implantados no Amazon SageMaker?",
+    "options": {
+      "A": "Sempre usar endpoints públicos para facilitar o acesso",
+      "B": "Compartilhar credenciais de acesso entre todas as equipes",
+      "C": "Usar VPC endpoints privados e restringir o acesso com políticas do IAM",
+      "D": "Desativar a criptografia para melhorar o desempenho"
+    },
+    "answer": "C",
+    "explanation": "Usar VPC endpoints privados e restringir o acesso com políticas do IAM granulares ajuda a proteger modelos implantados, garantindo que apenas usuários e serviços autorizados possam acessá-los e reduzindo a superfície de ataque."
+  },
+  {
+    "domain": 5,
+    "question": "Qual aspecto da governança de IA envolve a documentação detalhada de como os modelos foram desenvolvidos, treinados e validados?",
+    "options": {
+      "A": "Gerenciamento de custos",
+      "B": "Linhagem de modelos",
+      "C": "Otimização de infraestrutura",
+      "D": "Escalabilidade horizontal"
+    },
+    "answer": "B",
+    "explanation": "A linhagem de modelos envolve documentar meticulosamente todo o ciclo de vida do modelo, incluindo dados de treinamento, hiperparâmetros, métricas de avaliação e decisões de design, facilitando a auditoria, reprodutibilidade e conformidade regulatória."
+  },
+  {
+    "domain": 5,
+    "question": "Qual serviço da AWS ajuda a detectar e proteger dados sensíveis usados em aplicações de IA/ML?",
+    "options": {
+      "A": "Amazon Macie",
+      "B": "AWS Config",
+      "C": "AWS Systems Manager",
+      "D": "Amazon Inspector"
+    },
+    "answer": "A",
+    "explanation": "O Amazon Macie é um serviço de segurança que usa ML para descobrir, classificar e proteger automaticamente dados sensíveis, como informações pessoais identificáveis (PII), ajudando a manter a privacidade e a conformidade."
+  },
+  {
+    "domain": 5,
+    "question": "Qual é uma consideração importante ao implementar controles de conformidade para soluções de IA na AWS?",
+    "options": {
+      "A": "Maximizar o desempenho do modelo a qualquer custo",
+      "B": "Identificar requisitos regulatórios aplicáveis e implementar controles apropriados",
+      "C": "Usar sempre o modelo de IA mais recente disponível",
+      "D": "Evitar documentar decisões de design para manter a flexibilidade"
+    },
+    "answer": "B",
+    "explanation": "Uma consideração crucial é identificar os requisitos regulatórios específicos aplicáveis ao seu caso de uso e setor (como GDPR, HIPAA, etc.) e implementar controles apropriados para garantir a conformidade contínua."
+  },
+  {
+    "domain": 5,
+    "question": "Qual é o propósito de implementar políticas de controle de serviço (SCPs) no AWS Organizations para soluções de IA/ML?",
+    "options": {
+      "A": "Acelerar o treinamento de modelos de ML",
+      "B": "Estabelecer limites de permissão em toda a organização para restringir o que os usuários podem fazer",
+      "C": "Automatizar a implantação de modelos de ML",
+      "D": "Melhorar a precisão dos modelos de ML"
+    },
+    "answer": "B",
+    "explanation": "As políticas de controle de serviço (SCPs) no AWS Organizations permitem estabelecer limites de permissão em toda a organização, ajudando a garantir que todas as contas cumpram as políticas de segurança e governança, mesmo para serviços de IA/ML."
+  },
+  {
+    "domain": 5,
+    "question": "Qual prática ajuda a garantir a privacidade dos dados ao treinar modelos de ML na AWS?",
+    "options": {
+      "A": "Sempre usar dados públicos para treinamento",
+      "B": "Compartilhar amplamente os conjuntos de dados para aumentar a transparência",
+      "C": "Implementar técnicas de anonimização e minimização de dados",
+      "D": "Armazenar todos os dados em um único bucket do S3 para facilitar o acesso"
+    },
+    "answer": "C",
+    "explanation": "Implementar técnicas de anonimização (como mascaramento, tokenização ou agregação) e minimização de dados (coletando apenas o necessário) ajuda a proteger a privacidade dos indivíduos enquanto ainda permite o treinamento eficaz de modelos de ML."
+  },
+  {
+    "domain": 5,
+    "question": "Qual é uma prática recomendada para monitorar modelos de ML em produção do ponto de vista de segurança?",
+    "options": {
+      "A": "Verificar o modelo apenas durante o desenvolvimento inicial",
+      "B": "Implementar monitoramento contínuo para detectar desvios de comportamento, vulnerabilidades ou uso indevido",
+      "C": "Permitir que qualquer serviço acesse o modelo para maximizar a utilidade",
+      "D": "Desativar logs para melhorar o desempenho"
+    },
+    "answer": "B",
+    "explanation": "O monitoramento contínuo de modelos em produção é essencial para detectar desvios de comportamento, vulnerabilidades de segurança ou tentativas de uso indevido, permitindo respostas rápidas a problemas potenciais."
+  },
+  {
+    "domain": 5,
+    "question": "Qual aspecto da governança de IA envolve definir papéis e responsabilidades claros para o desenvolvimento, implantação e monitoramento de soluções de IA?",
+    "options": {
+      "A": "Otimização de custos",
+      "B": "Estrutura organizacional",
+      "C": "Seleção de algoritmos",
+      "D": "Arquitetura de rede"
+    },
+    "answer": "B",
+    "explanation": "Uma estrutura organizacional clara com papéis e responsabilidades bem definidos é fundamental para a governança eficaz de IA, garantindo supervisão adequada, prestação de contas e separação de deveres em todo o ciclo de vida da IA."
+  },
+  {
+    "domain": 5,
+    "question": "Qual serviço da AWS pode ajudar a implementar controles de detecção para identificar configurações incorretas em recursos de IA/ML?",
+    "options": {
+      "A": "Amazon SageMaker Debugger",
+      "B": "AWS Config",
+      "C": "Amazon Forecast",
+      "D": "AWS Glue"
+    },
+    "answer": "B",
+    "explanation": "O AWS Config fornece uma visão detalhada da configuração dos recursos da AWS, permitindo avaliar, auditar e monitorar configurações, incluindo recursos relacionados a IA/ML, para identificar não conformidades com políticas organizacionais."
+  },
+  {
+    "domain": 5,
+    "question": "Qual é uma consideração importante ao desenvolver um framework de governança para soluções de IA/ML na AWS?",
+    "options": {
+      "A": "Focar exclusivamente na velocidade de desenvolvimento",
+      "B": "Ignorar requisitos regulatórios para simplificar o processo",
+      "C": "Equilibrar inovação com controles apropriados de risco, ética e conformidade",
+      "D": "Permitir que cada equipe defina suas próprias regras independentemente"
+    },
+    "answer": "C",
+    "explanation": "Um framework eficaz de governança de IA deve equilibrar a necessidade de inovação e agilidade com controles apropriados para gerenciar riscos, considerações éticas e requisitos de conformidade, adaptando-se às necessidades específicas da organização."
+  }
+]

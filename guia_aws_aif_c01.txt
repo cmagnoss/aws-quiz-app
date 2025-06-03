@@ -1,0 +1,1401 @@
+Guia do exame AWS Certified AI Practitioner (AIF-C01)
+
+Introdução
+O exame AWS Certified AI Practitioner (AIF-C01) destina-se a pessoas capazes de
+demonstrar com eficácia conhecimentos gerais de IA/ML, tecnologias de IA
+generativa, além de serviços e ferramentas correspondentes da AWS,
+independentemente de um cargo específico.
+O exame também valida a capacidade do candidato de concluir as seguintes tarefas:
+•
+
+Entender os conceitos, os métodos e as estratégias de IA, ML e IA generativa
+em geral e na AWS.
+
+•
+
+Entender o uso apropriado de tecnologias de IA/ML e IA generativa para fazer
+perguntas relevantes na organização à qual o candidato pertence.
+
+•
+
+Determinar os tipos corretos de tecnologia de IA/ML que devem ser aplicadas a
+casos de uso específicos.
+
+•
+
+Usar tecnologias de IA, ML e IA generativa com responsabilidade.
+
+Descrição do candidato
+O candidato deve ter até seis meses de contato com as tecnologias de IA/ML na AWS.
+O candidato deve usar, mas não necessariamente criar, soluções de IA/ML na AWS.
+Conhecimento da AWS recomendado
+O candidato deve ter o seguinte conhecimento da AWS:
+•
+
+Familiaridade com os principais serviços da AWS (por exemplo, Amazon EC2,
+Amazon S3, AWS Lambda e Amazon SageMaker) e casos de uso dos principais
+serviços da AWS.
+
+•
+
+Familiaridade com o modelo de responsabilidade compartilhada da AWS
+referente à segurança e conformidade na nuvem AWS.
+
+•
+
+Familiaridade com o AWS Identity and Access Management (IAM) para proteger
+e controlar o acesso aos recursos da AWS.
+
+•
+
+Familiaridade com a infraestrutura global da AWS, incluindo os conceitos de
+Regiões AWS, Zonas de Disponibilidade e locais da borda.
+
+•
+
+Familiaridade com os modelos de preços de serviços da AWS.
+
+Versão 1.4 AIF-C01
+
+1 | PÁGINA
+
+Tarefas profissionais que estão fora do escopo do candidato
+A lista a seguir contém tarefas profissionais as quais não se espera que o candidato
+seja capaz de executar. Essa lista não é completa. Estas tarefas estão fora do escopo
+do exame:
+•
+
+Desenvolver ou codificar modelos ou algoritmos de IA/ML.
+
+•
+
+Implementar técnicas de engenharia de dados ou engenharia de atributos.
+
+•
+
+Executar ajuste de hiperparâmetros ou otimização de modelos.
+
+•
+
+Criar e implantar pipelines ou infraestrutura de IA/ML.
+
+•
+
+Realizar análises matemáticas ou estatísticas de modelos de IA/ML.
+
+•
+
+Implementar protocolos de segurança ou conformidade para sistemas de
+IA/ML.
+
+•
+
+Desenvolver e implementar frameworks e políticas de governança para
+soluções de IA/ML.
+
+Consulte o Apêndice para ver a lista dos serviços e recursos da AWS que estão dentro
+do escopo e outra lista dos que estão fora do escopo.
+
+Conteúdo do exame
+Tipos de pergunta
+O exame contém um ou mais dos seguintes tipos de pergunta:
+•
+
+Múltipla escolha: tem uma resposta correta e três respostas incorretas
+(distratores).
+
+•
+
+Múltipla resposta: tem duas ou mais respostas corretas dentre cinco ou mais
+opções de resposta. Você deve selecionar todas as respostas corretas para
+receber crédito pela pergunta.
+
+•
+
+Ordenação: tem uma lista de três a cinco respostas para concluir uma tarefa
+específica. Você deve selecionar as respostas certas e colocá-las na ordem
+correta para receber crédito pela pergunta.
+
+•
+
+Correspondência: tem uma lista de respostas que correspondem a uma lista de
+três a sete questões. Você deve correlacionar todos os pares corretamente para
+receber crédito pela pergunta.
+
+Versão 1.4 AIF-C01
+
+2 | PÁGINA
+
+•
+
+Estudo de caso: tem duas ou mais perguntas sobre determinado cenário. O
+cenário é o mesmo para cada pergunta do estudo de caso. Cada pergunta do
+estudo de caso será avaliada separadamente. Você receberá crédito por cada
+pergunta respondida corretamente no estudo de caso.
+
+As perguntas não respondidas são avaliadas como incorretas; não há penalidade por
+tentar adivinhar. O exame inclui 50 perguntas que afetam sua pontuação. 1
+Conteúdo não avaliado
+O exame inclui 15 perguntas não avaliadas que não afetam sua pontuação. A AWS
+coleta informações sobre o desempenho nas perguntas não avaliadas a fim de
+verificá-las para uso futuro como perguntas avaliadas. As perguntas não avaliadas
+não são identificadas no exame.
+Resultados do exame
+O exame AWS Certified AI Practitioner (AIF-C01) tem uma designação de aprovação
+ou reprovação. O exame é avaliado de acordo com um padrão mínimo estabelecido
+por profissionais da AWS que seguem as práticas recomendadas e as diretrizes do
+setor de certificação.
+Os resultados do exame são fornecidos como uma pontuação em escala de 100 a
+1.000. A pontuação mínima de aprovação é de 700. Sua pontuação mostra como foi
+seu desempenho no exame como um todo e se você obteve aprovação. Os modelos
+de pontuação em escala ajudam a correlacionar as pontuações em várias formas de
+exame que podem ter níveis de dificuldade um pouco diferentes.
+O relatório de pontuação pode conter uma tabela de classificações de seu
+desempenho em cada nível de seção. O exame usa um modelo de pontuação
+compensatória, o que significa que não é necessário obter uma pontuação de
+aprovação em cada seção. Você só precisa passar no exame geral.
+
+Não se aplica à versão beta do exame. É possível encontrar mais informações sobre os
+exames beta em geral no site do AWS Certification.
+
+1
+
+Versão 1.4 AIF-C01
+
+3 | PÁGINA
+
+Cada seção do exame tem uma ponderação específica, portanto algumas seções têm
+mais perguntas do que outras. A tabela de classificações contém informações gerais
+que destacam seus pontos fortes e fracos. Tenha cuidado ao interpretar o feedback
+no nível de seção.
+Resumo do conteúdo
+Este guia do exame inclui as ponderações, os domínios do conteúdo e as declarações
+de tarefa do exame. Ele não fornece uma lista abrangente do conteúdo do exame. No
+entanto, um contexto adicional para cada declaração de tarefa está disponível para
+ajudar você a se preparar para o exame.
+O exame tem os seguintes domínios do conteúdo e ponderações:
+•
+
+Domínio 1: Fundamentos de IA e ML (20% do conteúdo pontuado)
+
+•
+
+Domínio 2: Fundamentos de IA generativa (24% do conteúdo pontuado)
+
+•
+
+Domínio 3: Aplicações de modelos de base (28% do conteúdo pontuado)
+
+•
+
+Domínio 4: Diretrizes de IA responsável (14% do conteúdo pontuado)
+
+•
+
+Domínio 5: Segurança, conformidade e governança para soluções de IA (14%
+do conteúdo pontuado)
+
+Domínio 1: Fundamentos de IA e ML
+Declaração de tarefa 1.1: Explicar conceitos e terminologias básicos de IA.
+Objetivos:
+•
+
+Definir termos básicos de IA [por exemplo, IA, ML, aprendizado profundo,
+redes neurais, visão computacional, processamento de linguagem natural
+(PLN), modelo, algoritmo, treinamento e inferência, viés, imparcialidade,
+ajuste e grande modelo de linguagem (LLM)].
+
+•
+
+Descrever as semelhanças e diferenças entre IA, ML e aprendizado
+profundo.
+
+•
+
+Descrever vários tipos de inferência (por exemplo, em lote e em tempo real).
+
+•
+
+Descrever os diferentes tipos de dados nos modelos de IA (por exemplo,
+rotulados e não rotulados, tabulares, de série temporal, de imagem, de
+texto, estruturados e não estruturados).
+
+•
+
+Descrever o aprendizado supervisionado, o aprendizado não supervisionado
+e o aprendizado por reforço.
+
+Versão 1.4 AIF-C01
+
+4 | PÁGINA
+
+Declaração de tarefa 1.2: Identificar casos de uso práticos de IA.
+Objetivos:
+•
+
+Reconhecer aplicações em que a IA e o ML podem agregar valor (por
+exemplo, auxílio na tomada de decisões humanas, escalabilidade da solução
+e automação).
+
+•
+
+Determinar quando as soluções de IA/ML não são apropriadas (por
+exemplo, análises de custo-benefício, situações em que é necessário um
+resultado específico em vez de uma previsão).
+
+•
+
+Selecionar as técnicas de ML apropriadas para casos de uso específicos (por
+exemplo, regressão, classificação e agrupamento).
+
+•
+
+Identificar exemplos de aplicações de IA reais (por exemplo, visão
+computacional, PLN, reconhecimento de fala, sistemas de recomendação,
+detecção de fraude e previsão).
+
+•
+
+Explicar os recursos dos serviços de IA/ML gerenciados pela AWS (por
+exemplo, SageMaker, Amazon Transcribe, Amazon Translate, Amazon
+Comprehend, Amazon Lex e Amazon Polly).
+
+Declaração de tarefa 1.3: Descrever o ciclo de vida do desenvolvimento de ML.
+Objetivos:
+•
+
+Descrever os componentes de um pipeline de ML [por exemplo, coleta de
+dados, análise exploratória de dados (AED), pré-processamento de dados,
+engenharia de atributos, treinamento do modelo, ajuste de
+hiperparâmetros, avaliação, implantação e monitoramento].
+
+•
+
+Entender as origens dos modelos de ML (por exemplo, modelos prétreinados de código aberto e modelos personalizados de treinamento).
+
+•
+
+Descrever os métodos para usar um modelo na produção (por exemplo,
+serviço de API gerenciado e API auto-hospedada).
+
+•
+
+Identificar os serviços e recursos relevantes da AWS para cada estágio de
+um pipeline de ML (por exemplo, SageMaker, Amazon SageMaker Data
+Wrangler, Amazon SageMaker Feature Store e Amazon SageMaker Model
+Monitor).
+
+•
+
+Entender os conceitos fundamentais das operações de ML (MLOps) (por
+exemplo, experimentação, processos repetíveis, sistemas dimensionáveis,
+
+Versão 1.4 AIF-C01
+
+5 | PÁGINA
+
+gerenciamento de dívidas técnicas, obtenção de prontidão para a produção,
+monitoramento de modelos e retreinamento de modelos).
+•
+
+Entender as métricas de desempenho de modelos [por exemplo, acurácia,
+área sob a curva ROC (AUC) e pontuação F1] e as métricas empresariais [por
+exemplo, custo por usuário, custos de desenvolvimento, feedback de
+clientes e retorno sobre o investimento (ROI)] para avaliar modelos de ML.
+
+Domínio 2: Fundamentos de IA generativa
+Declaração de tarefa 2.1: Explicar os conceitos básicos de IA generativa.
+Objetivos:
+•
+
+Entender os conceitos básicos de IA generativa (por exemplo, tokens,
+fragmentação, incorporações, vetores, engenharia de prompts, LLMs
+baseados em transformadores, modelos de base, modelos multimodais e
+modelos de difusão).
+
+•
+
+Identificar possíveis casos de uso para modelos de IA generativa (por
+exemplo, geração de imagem, áudio e vídeo; resumo; chatbots; tradução;
+geração de código; atendentes de suporte ao cliente; pesquisa; e
+mecanismos de recomendação).
+
+•
+
+Descrever o ciclo de vida do modelo de base (por exemplo, seleção de
+dados, seleção de modelos, pré-treinamento, ajuste fino, avaliação,
+implantação e feedback).
+
+Declaração de tarefa 2.2: Entender os recursos e as limitações da IA generativa para
+resolver problemas empresariais.
+Objetivos:
+•
+
+Descrever as vantagens da IA generativa (por exemplo, adaptabilidade,
+capacidade de resposta e simplicidade).
+
+•
+
+Identificar as desvantagens das soluções de IA generativa (por exemplo,
+alucinações, interpretabilidade, imprecisão e não determinismo).
+
+•
+
+Entender os diversos fatores para escolher modelos de IA generativa
+apropriados (por exemplo, tipos de modelo, requisitos de desempenho,
+recursos, restrições e conformidade).
+
+Versão 1.4 AIF-C01
+
+6 | PÁGINA
+
+•
+
+Determinar o valor comercial e as métricas para aplicações de IA generativa
+(por exemplo, desempenho entre domínios, eficiência, taxa de conversão,
+receita média por usuário, acurácia e valor da vida útil do cliente).
+
+Declaração de tarefa 2.3: Descrever a infraestrutura e as tecnologias da AWS para
+criar aplicações de IA generativa.
+Objetivos:
+•
+
+Identificar os serviços e recursos da AWS para desenvolver aplicações de IA
+generativa (por exemplo, Amazon SageMaker JumpStart; Amazon Bedrock;
+PartyRock, um Amazon Bedrock Playground; e Amazon Q).
+
+•
+
+Descrever as vantagens de usar os serviços de IA generativa da AWS para
+criar aplicações (por exemplo, acessibilidade, menor barreira de entrada,
+eficiência, custo-benefício, velocidade de comercialização e capacidade de
+atingir os objetivos empresariais).
+
+•
+
+Entender os benefícios da infraestrutura da AWS para aplicações de IA
+generativa (por exemplo, proteção, conformidade, responsabilidade e
+segurança).
+
+•
+
+Entender as compensações de custos dos serviços de IA generativa da AWS
+(por exemplo, capacidade de resposta, disponibilidade, redundância,
+desempenho, cobertura regional, preços baseados em tokens, throughput
+de provisão e modelos personalizados).
+
+Domínio 3: Aplicações de modelos de base
+Declaração de tarefa 3.1: Descrever as considerações sobre design de aplicações que
+usam modelos de base.
+Objetivos:
+•
+
+Identificar os critérios de seleção para escolher modelos pré-treinados (por
+exemplo, custo, modalidade, latência, multilíngue, tamanho do modelo,
+complexidade do modelo, personalização e tamanho da entrada/saída).
+
+•
+
+Entender o efeito dos parâmetros de inferência nas respostas do modelo
+(por exemplo, temperatura e tamanho da entrada/saída).
+
+•
+
+Definir a geração aumentada de recuperação (RAG) e descrever suas
+aplicações empresariais (por exemplo, Amazon Bedrock e base de
+conhecimento).
+
+Versão 1.4 AIF-C01
+
+7 | PÁGINA
+
+•
+
+Identificar os serviços da AWS que ajudam a armazenar incorporações em
+bancos de dados de vetores [por exemplo, Amazon OpenSearch Service,
+Amazon Aurora, Amazon Neptune, Amazon DocumentDB (compatível com
+MongoDB) e Amazon RDS para PostgreSQL].
+
+•
+
+Explicar as compensações de custos de várias abordagens para a
+personalização do modelo de base (por exemplo, pré-treinamento, ajuste
+fino, aprendizado em contexto e RAG).
+
+•
+
+Entender a função dos agentes em tarefas de várias etapas (por exemplo,
+agentes do Amazon Bedrock).
+
+Declaração de tarefa 3.2: Escolher técnicas eficazes de engenharia de prompts.
+Objetivos:
+•
+
+Descrever os conceitos e os componentes da engenharia de prompts (por
+exemplo, contexto, instrução, prompts negativos e espaço latente do
+modelo).
+
+•
+
+Entender as técnicas de engenharia de prompts (por exemplo, modelos de
+cadeia de pensamento, zero shot, single shot, few shot e de prompt).
+
+•
+
+Entender os benefícios e as práticas recomendadas da engenharia de
+prompts (por exemplo, melhoria da qualidade da resposta, experimentação,
+barreiras de proteção, descoberta, especificidade e concisão e uso de vários
+comentários).
+
+•
+
+Definir os possíveis riscos e limitações da engenharia de prompts (por
+exemplo, exposição, envenenamento, sequestro e jailbreak).
+
+Declaração de tarefa 3.3: Descrever o processo de treinamento e ajuste fino dos
+modelos de base.
+Objetivos:
+•
+
+Descrever os principais elementos do treinamento de um modelo de base
+(por exemplo, pré-treinamento, ajuste fino e pré-treinamento contínuo).
+
+•
+
+Definir os métodos de ajuste fino de um modelo de base (por exemplo,
+ajuste de instruções, adaptação de modelos para domínios específicos,
+aprendizado por transferência e pré-treinamento contínuo).
+
+Versão 1.4 AIF-C01
+
+8 | PÁGINA
+
+•
+
+Descrever como preparar dados para o ajuste fino de um modelo de base
+[por exemplo, curadoria de dados, governança, tamanho, rotulagem,
+representatividade e aprendizado por reforço com feedback humano
+(RLHF)].
+
+Declaração de tarefa 3.4: Descrever os métodos para avaliar o desempenho do
+modelo de base.
+Objetivos:
+•
+
+Entender as abordagens para avaliar o desempenho do modelo de base (por
+exemplo, avaliação humana e conjuntos de dados de referência).
+
+•
+
+Identificar métricas relevantes para avaliar o desempenho do modelo de
+base [por exemplo, ROUGE (Recall-Oriented Understudy for Gisting
+Evaluation), BLEU (Bilingual Evaluation Understudy) e BERTScore].
+
+•
+
+Determinar se um modelo de base atende efetivamente aos objetivos
+empresariais (por exemplo, produtividade, envolvimento dos usuários e
+engenharia de tarefas).
+
+Domínio 4: Diretrizes de IA responsável
+Declaração de tarefa 4.1: Explicar o desenvolvimento de sistemas de IA que são
+responsáveis.
+Objetivos:
+•
+
+Identificar as características da IA responsável (por exemplo, viés,
+imparcialidade, inclusão, robustez, segurança e veracidade).
+
+•
+
+Entender como usar ferramentas para identificar recursos de IA responsável
+(por exemplo, barreiras de proteção do Amazon Bedrock).
+
+•
+
+Entender as práticas responsáveis para escolher um modelo (por exemplo,
+considerações ambientais, sustentabilidade e agência moral).
+
+•
+
+Identificar os riscos legais de trabalhar com IA generativa (por exemplo,
+reivindicações relacionadas à violação de propriedade intelectual,
+resultados de modelos tendenciosos, perda da confiança do cliente, risco do
+usuário final e alucinações).
+
+•
+
+Identificar as características dos conjuntos de dados (por exemplo, inclusão,
+diversidade, fontes de dados com curadoria e conjuntos de dados
+balanceados).
+
+Versão 1.4 AIF-C01
+
+9 | PÁGINA
+
+•
+
+Entender os efeitos do viés e da variância (por exemplo, efeitos em grupos
+demográficos, imprecisão, sobreajuste e subajuste).
+
+•
+
+Descrever as ferramentas para detectar e monitorar vieses, confiabilidade e
+veracidade [por exemplo, análise da qualidade do rótulo, auditorias
+humanas, análise de subgrupos, Amazon SageMaker Clarify, Monitor de
+Modelos do SageMaker e Amazon Augmented AI (Amazon A2I)].
+
+Declaração de tarefa 4.2: Reconhecer a importância de modelos transparentes e
+explicáveis.
+Objetivos:
+•
+
+Entender as diferenças entre modelos que são transparentes e explicáveis e
+os que não são.
+
+•
+
+Entender as ferramentas para identificar modelos transparentes e
+explicáveis (por exemplo, Cartões de Modelos do Amazon SageMaker,
+modelos de código aberto, dados e licenciamento).
+
+•
+
+Identificar as concessões entre a segurança e a transparência do modelo
+(por exemplo, avaliação do desempenho e da interpretabilidade).
+
+•
+
+Entender os princípios do design centrado no ser humano em prol da IA
+explicável.
+
+Domínio 5: Segurança, conformidade e governança para soluções de IA
+Declaração de tarefa 5.1: Explicar os métodos para proteger os sistemas de IA.
+Objetivos:
+•
+
+Identificar os serviços e recursos da AWS para proteger os sistemas de IA
+(por exemplo, políticas, permissões e perfis do IAM; criptografia; Amazon
+Macie; AWS PrivateLink; e Modelo de responsabilidade compartilhada da
+AWS).
+
+•
+
+Entender o conceito de citação de fontes e documentar as origens dos
+dados (por exemplo, linhagem de dados, catalogação de dados e Cartões de
+Modelos do SageMaker).
+
+•
+
+Descrever as práticas recomendadas para uma engenharia de dados segura
+(por exemplo, avaliação da qualidade dos dados, implementação de
+tecnologias que aumentam a privacidade, controle de acesso a dados e
+integridade dos dados).
+
+Versão 1.4 AIF-C01
+
+10 | PÁGINA
+
+•
+
+Entender as considerações de segurança e privacidade dos sistemas de IA
+(por exemplo, segurança de aplicações, detecção de ameaças,
+gerenciamento de vulnerabilidades, proteção de infraestrutura, injeção de
+prompt e criptografia em repouso e em trânsito).
+
+Declaração de tarefa 5.2: Reconhecer os regulamentos de governança e conformidade
+de sistemas de IA.
+Objetivos:
+•
+
+Identificar padrões de conformidade regulatória de sistemas de IA [por
+exemplo, Organização Internacional de Normalização (ISO), controles de
+organizações e sistemas (SOC) e leis de responsabilidade algorítmica].
+
+•
+
+Identificar os serviços e recursos da AWS para promover a conformidade
+com a governança e a regulamentação (por exemplo, AWS Config, Amazon
+Inspector, AWS Audit Manager, AWS Artifact, AWS CloudTrail e AWS
+Trusted Advisor).
+
+•
+
+Descrever as estratégias de governança de dados (por exemplo, ciclos de
+vida de dados, registro em log, residência, monitoramento, observação e
+retenção).
+
+•
+
+Descrever os processos para seguir os protocolos de governança (por
+exemplo, políticas, cadência de revisão, estratégias de revisão, frameworks
+de governança, como a Matriz de Escopos de Segurança da IA Generativa,
+padrões de transparência e requisitos de treinamento de equipe).
+
+Versão 1.4 AIF-C01
+
+11 | PÁGINA
+
+Apêndice
+Serviços e recursos da AWS dentro do escopo
+A lista a seguir contém os serviços e recursos da AWS que estão no escopo do exame.
+Essa lista não é completa e está sujeita a alterações. As ofertas da AWS aparecem em
+categorias que se alinham às funções principais das ofertas:
+Analytics:
+•
+
+AWS Data Exchange
+
+•
+
+Amazon EMR
+
+•
+
+AWS Glue
+
+•
+
+AWS Glue DataBrew
+
+•
+
+AWS Lake Formation
+
+•
+
+Amazon OpenSearch Service
+
+•
+
+Amazon QuickSight
+
+•
+
+Amazon Redshift
+
+Gerenciamento financeiro da nuvem:
+•
+
+AWS Budgets
+
+•
+
+AWS Cost Explorer
+
+Computação:
+•
+
+Amazon EC2
+
+Contêineres:
+•
+
+Amazon Elastic Container Service (Amazon ECS)
+
+•
+
+Amazon Elastic Kubernetes Service (Amazon EKS)
+
+Versão 1.4 AIF-C01
+
+12 | PÁGINA
+
+Banco de dados:
+•
+
+Amazon DocumentDB (compatível com MongoDB)
+
+•
+
+Amazon DynamoDB
+
+•
+
+Amazon ElastiCache
+
+•
+
+Amazon MemoryDB
+
+•
+
+Amazon Neptune
+
+•
+
+Amazon RDS
+
+Machine learning:
+•
+
+Amazon Augmented AI (Amazon A2I)
+
+•
+
+Amazon Bedrock
+
+•
+
+Amazon Comprehend
+
+•
+
+Amazon Fraud Detector
+
+•
+
+Amazon Kendra
+
+•
+
+Amazon Lex
+
+•
+
+Amazon Personalize
+
+•
+
+Amazon Polly
+
+•
+
+Amazon Q
+
+•
+
+Amazon Rekognition
+
+•
+
+Amazon SageMaker
+
+•
+
+Amazon Textract
+
+•
+
+Amazon Transcribe
+
+•
+
+Amazon Translate
+
+Gerenciamento e governança:
+•
+
+AWS CloudTrail
+
+•
+
+Amazon CloudWatch
+
+•
+
+AWS Config
+
+•
+
+AWS Trusted Advisor
+
+•
+
+AWS Well-Architected Tool
+
+Versão 1.4 AIF-C01
+
+13 | PÁGINA
+
+Redes e entrega de conteúdo:
+•
+
+Amazon CloudFront
+
+•
+
+Amazon VPC
+
+Segurança, identidade e conformidade:
+•
+
+AWS Artifact
+
+•
+
+AWS Audit Manager
+
+•
+
+AWS Identity and Access Management (AWS IAM)
+
+•
+
+Amazon Inspector
+
+•
+
+AWS Key Management Service (AWS KMS)
+
+•
+
+Amazon Macie
+
+•
+
+AWS Secrets Manager
+
+Armazenamento:
+•
+
+Amazon S3
+
+•
+
+Amazon S3 Glacier
+
+Recursos e serviços da AWS fora do escopo
+A lista a seguir contém serviços e recursos da AWS que estão fora do escopo do
+exame. Essa lista não é completa e está sujeita a alterações. As ofertas da AWS que
+não estão totalmente relacionadas aos cargos desejados para o exame foram
+excluídas dessa lista:
+Analytics:
+•
+
+AWS Clean Rooms
+
+•
+
+Amazon CloudSearch
+
+•
+
+Amazon FinSpace
+
+•
+
+Amazon Managed Streaming for Apache Kafka (Amazon MSK)
+
+Integração de aplicações:
+•
+
+Amazon AppFlow
+
+•
+
+Amazon MQ
+
+•
+
+Amazon Simple Workflow Service (Amazon SWF)
+
+Versão 1.4 AIF-C01
+
+14 | PÁGINA
+
+Aplicações empresariais:
+•
+
+Amazon Chime
+
+•
+
+Amazon Honeycode
+
+•
+
+Amazon Pinpoint
+
+•
+
+Amazon Simple Email Service (Amazon SES)
+
+•
+
+Cadeia de Suprimentos AWS
+
+•
+
+AWS Wickr
+
+•
+
+Amazon WorkDocs
+
+•
+
+Amazon WorkMail
+
+Gerenciamento financeiro da nuvem:
+•
+
+AWS Application Cost Profiler
+
+•
+
+AWS Billing Conductor
+
+•
+
+AWS Marketplace
+
+Computação:
+•
+
+AWS App Runner
+
+•
+
+AWS Elastic Beanstalk
+
+•
+
+EC2 Image Builder
+
+•
+
+Amazon Lightsail
+
+Contêineres:
+•
+
+Serviço Red Hat OpenShift na AWS (ROSA)
+
+Capacitação de clientes:
+•
+
+AWS IQ
+
+•
+
+AWS Managed Services (AMS)
+
+•
+
+AWS re:Post Private
+
+•
+
+AWS Support
+
+Versão 1.4 AIF-C01
+
+15 | PÁGINA
+
+Banco de dados:
+•
+
+Amazon Keyspaces (para Apache Cassandra)
+
+•
+
+Amazon Quantum Ledger Database (Amazon QLDB)
+
+•
+
+Amazon Timestream
+
+Ferramentas do desenvolvedor:
+•
+
+AWS AppConfig
+
+•
+
+AWS Application Composer
+
+•
+
+AWS CloudShell
+
+•
+
+Amazon CodeCatalyst
+
+•
+
+AWS CodeStar
+
+•
+
+AWS Fault Injection Service
+
+•
+
+AWS X-Ray
+
+Computação de usuário final:
+•
+
+Amazon AppStream 2.0
+
+•
+
+Amazon WorkSpaces
+
+•
+
+Amazon WorkSpaces Thin Client
+
+•
+
+Amazon WorkSpaces Web
+
+Web e dispositivos móveis de front-end:
+•
+
+AWS Amplify
+
+•
+
+AWS AppSync
+
+•
+
+AWS Device Farm
+
+•
+
+Amazon Location Service
+
+Internet das Coisas (IoT):
+•
+
+AWS IoT Analytics
+
+•
+
+AWS IoT Core
+
+•
+
+AWS IoT Device Defender
+
+•
+
+AWS IoT Device Management
+
+•
+
+AWS IoT Events
+
+•
+
+AWS IoT FleetWise
+
+•
+
+FreeRTOS
+
+Versão 1.4 AIF-C01
+
+16 | PÁGINA
+
+•
+
+AWS IoT Greengrass
+
+•
+
+AWS IoT 1-Click
+
+•
+
+AWS IoT RoboRunner
+
+•
+
+AWS IoT SiteWise
+
+•
+
+AWS IoT TwinMaker
+
+Machine learning:
+•
+
+AWS DeepComposer
+
+•
+
+AWS HealthImaging
+
+•
+
+AWS HealthOmics
+
+•
+
+Amazon Monitron
+
+•
+
+AWS Panorama
+
+Gerenciamento e governança:
+•
+
+AWS Control Tower
+
+•
+
+AWS Health Dashboard
+
+•
+
+AWS Launch Wizard
+
+•
+
+AWS License Manager
+
+•
+
+Amazon Managed Grafana
+
+•
+
+Amazon Managed Service for Prometheus
+
+•
+
+AWS OpsWorks
+
+•
+
+AWS Organizations
+
+•
+
+AWS Proton
+
+•
+
+Hub de Resiliência da AWS
+
+•
+
+Explorador de Recursos da AWS
+
+•
+
+AWS Resource Groups
+
+•
+
+AWS Systems Manager Incident Manager
+
+•
+
+AWS Service Catalog
+
+•
+
+Service Quotas
+
+•
+
+Criador de Redes de Telecomunicações da AWS
+
+•
+
+Notificações de Usuários da AWS
+
+Versão 1.4 AIF-C01
+
+17 | PÁGINA
+
+Mídia:
+•
+
+Amazon Elastic Transcoder
+
+•
+
+AWS Elemental MediaConnect
+
+•
+
+AWS Elemental MediaConvert
+
+•
+
+AWS Elemental MediaLive
+
+•
+
+AWS Elemental MediaPackage
+
+•
+
+AWS Elemental MediaStore
+
+•
+
+AWS Elemental MediaTailor
+
+•
+
+Amazon Interactive Video Service (Amazon IVS)
+
+•
+
+Amazon Nimble Studio
+
+Migração e transferência:
+•
+
+AWS Application Discovery Service
+
+•
+
+AWS Application Migration Service
+
+•
+
+AWS Database Migration Service (AWS DMS)
+
+•
+
+AWS DataSync
+
+•
+
+AWS Mainframe Modernization
+
+•
+
+AWS Migration Hub
+
+•
+
+Família AWS Snow
+
+•
+
+AWS Transfer Family
+
+Redes e entrega de conteúdo:
+•
+
+AWS App Mesh
+
+•
+
+AWS Cloud Map
+
+•
+
+AWS Direct Connect
+
+•
+
+AWS Global Accelerator
+
+•
+
+5G Privado da AWS
+
+•
+
+Amazon Route 53
+
+•
+
+Controlador de Recuperação de Aplicações do Amazon Route 53
+
+•
+
+Amazon VPC IP Address Manager (IPAM)
+
+Versão 1.4 AIF-C01
+
+18 | PÁGINA
+
+Segurança, identidade e conformidade:
+•
+
+AWS Certificate Manager (ACM)
+
+•
+
+AWS CloudHSM
+
+•
+
+Amazon Cognito
+
+•
+
+Amazon Detective
+
+•
+
+AWS Directory Service
+
+•
+
+AWS Firewall Manager
+
+•
+
+Amazon GuardDuty
+
+•
+
+Centro de Identidade do AWS IAM
+
+•
+
+AWS Payment Cryptography
+
+•
+
+AWS Private Certificate Authority
+
+•
+
+AWS Resource Access Manager (AWS RAM)
+
+•
+
+AWS Security Hub
+
+•
+
+Amazon Security Lake
+
+•
+
+AWS Shield
+
+•
+
+AWS Signer
+
+•
+
+Amazon Verified Permissions
+
+•
+
+AWS WAF
+
+Armazenamento:
+•
+
+AWS Backup
+
+•
+
+AWS Elastic Disaster Recovery
+
+Pesquisa
+Este guia do exame foi útil? Informe-nos respondendo à nossa pesquisa.
+
+Versão 1.4 AIF-C01
+
+19 | PÁGINA
+
+

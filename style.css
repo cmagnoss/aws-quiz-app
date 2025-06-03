@@ -115,6 +115,24 @@ h1 {
     transition: all 0.3s ease;
 }
 
+.disclaimer {
+    margin-top: 30px;
+    padding: 15px;
+    border-top: 1px solid #4a4a6e;
+    text-align: center;
+}
+
+.disclaimer p {
+    color: #a0a0c0;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.author {
+    font-weight: 600;
+    color: #b0b0d0;
+}
+
 .option-btn:hover:not(:disabled) {
     background-color: #4a4a6e;
     border-color: #7a7aa0;
